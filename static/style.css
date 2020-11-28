@@ -1,0 +1,132 @@
+body {
+    font-family: 'Messapia-Bold', serif;
+    background-color: plum;
+}
+
+.container1 {
+    height: 30px;
+    top: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: sticky;
+}
+
+.container2 {
+    height: 30px;
+    top: 55px;
+    margin-top: 0px;
+    margin-left: 15px;
+    position: sticky;
+}
+
+h1 {
+    color: black;
+    font-size: 25px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+a:focus {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
+}
+
+
+#chatbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 16%;
+}
+
+#userInput {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+}
+
+#textInput {
+    width: 87%;
+    border: none;
+    font-family: 'Messapia-Bold', serif;
+    font-size: 17px;
+}
+
+#buttonInput {
+    padding: 3px;
+    margin-top: 1%;
+    font-family: 'Messapia-Bold', serif;
+    font-size: 17px;
+    background-color: aquamarine;
+    border-style: none;
+}
+
+.userText {
+    color: black;
+    font-family: 'Messapia-Bold', serif;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+}
+
+.userText span {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+.botText {
+    color: white;
+    font-family: 'Messapia-Bold', serif;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.botText span {
+    background-color: OrangeRed;
+    padding: 10px;
+    border-radius: 8px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+.about_text{
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Messapia-Bold', serif;
+  font-size: 26px;
+  text-align: left;
+  padding:  0 21%;
+}
+
+#tidbit {
+    position:absolute;
+    bottom:0;
+    right:0;
+    width: 300px;
+}
+
+@font-face {
+font-family: "Messapia-Bold";
+src: url("/static/font/Messapia-Bold.woff2") format ("woff2"),
+src: url("/static/font/font/Messapia-Bold.woff") format ("woff");
+}
