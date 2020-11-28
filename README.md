@@ -1,5 +1,7 @@
 # Aidu_chatbot
-An experimental chatbot built with Flask and Chatterbot. Trained on relationship advice that is scraped with Reddit API.
+An experimental chatbot built with Flask and Chatterbot. Partly based on https://github.com/chamkank/flask-chatterbot.
+
+Aidu is trained on relationship advice that is scraped with Reddit API.
 
 Local setup:
 
